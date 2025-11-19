@@ -1,16 +1,26 @@
-# React + Vite
+# Professional To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یه اپ To-Do List فوق‌العاده تمیز و حرفه‌ای با قابلیت‌های خفن:
 
-Currently, two official plugins are available:
+- تم تاریک و روشن با انیمیشن نرم
+- سوئیچ تم با آیکن خورشید و ماه
+- ذخیره تم در localStorage (دفعه بعد هم همون تم می‌مونه)
+- بدون فلش تم موقع لود صفحه
+- آیکن‌های زیبا با Lucide
+- جابجایی کارها با فلش بالا/پایین
+- کاملاً ریسپانسیو و RTL
+- ساخته شده با Vite + React + Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+### تکنولوژی‌ها
+- Vite + React (JavaScript)
+- Tailwind CSS
+- Lucide React Icons
+- localStorage برای ذخیره تم
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### نصب و اجرا محلی
+```bash
+git clone https://github.com/اسم-کاربریت/todo-pro.git
+cd todo-pro
+npm install
+npm run dev
