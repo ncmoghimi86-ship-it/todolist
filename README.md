@@ -11,6 +11,8 @@
 - کاملاً ریسپانسیو و RTL
 - ساخته شده با Vite + React + Tailwind CSS
 
+### Live Demo
+https://todolist-rho-two-74.vercel.app
 
 ### تکنولوژی‌ها
 - Vite + React (JavaScript)
